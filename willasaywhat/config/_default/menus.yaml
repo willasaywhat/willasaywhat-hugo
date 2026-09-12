@@ -49,23 +49,12 @@ main:
 
 # footer menu
 footer:
-  - name: Timeline
-    pageRef: /timeline
-    weight: 10
-    params:
-      icon: chart
 
   - name: About
     pageRef: /about
     weight: 20
     params:
       icon: about
-
-  - name: Resume
-    pageRef: /resume
-    weight: 25
-    params:
-      icon: file-text
 
   - name: RSS Feed
     url: /index.xml
@@ -75,18 +64,18 @@ footer:
 
 # footer social link
 social:
-  - name: GitHub
-    url: https://github.com/willasaywhat
-    weight: 10
-    params:
-      icon: github
-  - name: Mastodon
-    url: https://infosec.exchange/@willasaywhat
-    weight: 20
-    params:
-      icon: mastodon
-  - name: LinkedIn
-    url: https://linkedin.com/in/willasaywhat
-    weight: 30
-    params:
-      icon: linkedin
+  - name: "GitHub"
+    url: "https://github.com/willasaywhat"
+    icon: "github"
+  - name: "Mastodon"
+    url: "https://infosec.exchange/@willasaywhat"
+    icon: "mastodon"
+  - name: "Bluesky"
+    url: "https://bsky.app/profile/willasaywhat.bsky.social"
+    icon: "bluesky"
+  - name: "Threads"
+    url: "https://www.threads.com/@willasaywhat"
+    icon: "threads-w"
+  - name: "Instagram"
+    url: "https://instagram.com/willasaywhat"
+    icon: "instagram"

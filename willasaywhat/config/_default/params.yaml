@@ -24,6 +24,15 @@ author:
     - name: "Mastodon"
       url: "https://infosec.exchange/@willasaywhat"
       icon: "mastodon"
+    - name: "Bluesky"
+      url: "https://bsky.app/profile/willasaywhat.bsky.social"
+      icon: "bluesky"
+    - name: "Threads"
+      url: "https://www.threads.com/@willasaywhat"
+      icon: "threads-w"
+    - name: "Instagram"
+      url: "https://instagram.com/willasaywhat"
+      icon: "instagram"
 
 # Header configuration (modularized)
 header:
