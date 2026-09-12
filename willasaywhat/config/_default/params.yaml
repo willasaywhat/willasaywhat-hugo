@@ -13,20 +13,17 @@ favicon:
 
 # Author info
 author:
-  name: "Hugo Narrow"
-  title: "A Clean and Minimal Hugo Theme"
-  description: "Focused on content and user experience."
+  name: "willasaywhat"
+  title: "willasaywhat"
+  description: "A blog about tech, art, and philosophy."
   avatar: "/images/avatar.svg"
   social:
     - name: "GitHub"
-      url: "https://github.com/username"
+      url: "https://github.com/willasaywhat"
       icon: "github"
-    - name: "Twitter"
-      url: "https://twitter.com/username"
-      icon: "twitter"
-    - name: "Email"
-      url: "mailto:hello@example.com"
-      icon: "email"
+    - name: "Mastodon"
+      url: "https://infosec.exchange/@willasaywhat"
+      icon: "mastodon"
 
 # Header configuration (modularized)
 header:
@@ -38,7 +35,7 @@ header:
   showThemeSwitch: true # Set to false to hide theme style switcher (palette icon)
   showDarkModeSwitch: true # Set to false to hide dark mode switcher (sun/moon icon)
   showContentWidthSwitch: true # Set to false to hide the desktop content width switcher
-  showLanguageSwitch: true # Set to false to hide language switcher
+  showLanguageSwitch: false # Set to false to hide language switcher
   languageSwitchMode: "dropdown" # Language switch mode: "dropdown" (show panel) or "cycle" (direct cycle)
 
 # Dock display mode
@@ -57,7 +54,7 @@ toc:
   pinned: false # Side mode only: keep the TOC panel always visible when there is enough space
 
 # Default color scheme
-colorScheme: "default"
+colorScheme: "amethyst"
 themes:
   default:
     name: "Default"
@@ -115,7 +112,7 @@ post:
   relatedPostsCount: 3 # posts number
   license:
     show: true
-    author: "Hugo Narrow"
+    author: "Willa"
     name: "CC BY-NC-SA 4.0"
     description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
     url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"

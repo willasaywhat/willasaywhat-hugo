@@ -1,6 +1,6 @@
 <!doctype html><html
   lang="en"
-  data-theme="default"
+  data-theme="amethyst"
   data-toc-pinned="false"
 >
   <head>
@@ -21,7 +21,7 @@
 />
 <meta
   name="author"
-  content="map[avatar:/images/avatar.svg description:Focused on content and user experience. name:Hugo Narrow social:[map[icon:github name:GitHub url:https://github.com/tom2almighty/hugo-narrow] map[icon:twitter name:Twitter url:https://twitter.com/username] map[icon:email name:Email url:mailto:hello@example.com]] title:A Clean and Minimal Hugo Theme]"
+  content="map[avatar:/images/avatar.svg description: name:willasaywhat social:[map[icon:github name:GitHub url:https://github.com/willasaywhat] map[icon:mastodon name:Mastodon url:https://infosec.exchange/@willasaywhat] map[icon:bluesky name:Bluesky url:https://bsky.app/profile/willasaywhat.bsky.social] map[icon:threads-w name:Threads url:https://www.threads.com/@willasaywhat] map[icon:instagram name:Instagram url:https://instagram.com/willasaywhat]] title:a blog about technology, art, and philoshopy]"
 />
 <meta name="language" content="en" />
 
@@ -37,7 +37,7 @@
 <meta property="og:url" content="http://localhost:1313/">
 	<meta property="og:site_name" content="willasaywhat">
 	<meta property="og:title" content="Home">
-	<meta property="og:description" content="🎉 Site Redesign! We’ve completely revamped our website with faster loading speeds, a beautiful new interface, and smoother user experience. Welcome to explore the new features!">
+	<meta property="og:description" content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="website">
 		<meta property="og:image" content="http://localhost:1313/images/og-default.avif">
@@ -46,14 +46,13 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="http://localhost:1313/images/og-default.avif">
 	<meta name="twitter:title" content="Home">
-	<meta name="twitter:description" content="🎉 Site Redesign! We’ve completely revamped our website with faster loading speeds, a beautiful new interface, and smoother user experience. Welcome to explore the new features!">
+	<meta name="twitter:description" content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.">
 
 
 	<meta itemprop="name" content="Home">
-	<meta itemprop="description" content="🎉 Site Redesign! We’ve completely revamped our website with faster loading speeds, a beautiful new interface, and smoother user experience. Welcome to explore the new features!">
+	<meta itemprop="description" content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.">
 	<meta itemprop="datePublished" content="2025-12-31T00:00:00+00:00">
 	<meta itemprop="dateModified" content="2025-12-31T00:00:00+00:00">
-	<meta itemprop="wordCount" content="26">
 	<meta itemprop="image" content="http://localhost:1313/images/og-default.avif">
 
 
@@ -117,7 +116,7 @@
 
 
     
-    <script>(function(){const e=document.documentElement,o=localStorage.getItem("theme")||"system",m=localStorage.getItem("colorScheme")||"default",n=Number.parseInt(localStorage.getItem("contentWidth"),10),d=Number.isInteger(n)&&n>=40&&n<=90;d&&e.style.setProperty("--content-width",`${n}rem`),e.setAttribute("data-theme",m);const s=localStorage.getItem("tocPinned");(s==="true"||s==="false")&&e.setAttribute("data-toc-pinned",s);const t=Number.parseFloat(getComputedStyle(e).fontSize)||16,u="56rem",i=Number.parseFloat(u);let a=56*t;Number.isFinite(i)&&(a=/r?em\s*$/.test(u)?i*t:i),d&&(a=n*t);const r=e.clientWidth,c=Math.max(0,(r-Math.min(a,r))/2);let l="narrow";r>=64*t&&(c>=13*t?l="wide":c>=2*t&&(l="tight")),e.setAttribute("data-toc-space",l),e.style.setProperty("--toc-gutter",`${Math.round(c)}px`);function h(){o==="dark"||o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?e.classList.add("dark"):e.classList.remove("dark")}h(),o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",h)})()</script>
+    <script>(function(){const e=document.documentElement,o=localStorage.getItem("theme")||"system",m=localStorage.getItem("colorScheme")||"amethyst",n=Number.parseInt(localStorage.getItem("contentWidth"),10),d=Number.isInteger(n)&&n>=40&&n<=90;d&&e.style.setProperty("--content-width",`${n}rem`),e.setAttribute("data-theme",m);const s=localStorage.getItem("tocPinned");(s==="true"||s==="false")&&e.setAttribute("data-toc-pinned",s);const t=Number.parseFloat(getComputedStyle(e).fontSize)||16,u="56rem",i=Number.parseFloat(u);let a=56*t;Number.isFinite(i)&&(a=/r?em\s*$/.test(u)?i*t:i),d&&(a=n*t);const r=e.clientWidth,c=Math.max(0,(r-Math.min(a,r))/2);let l="narrow";r>=64*t&&(c>=13*t?l="wide":c>=2*t&&(l="tight")),e.setAttribute("data-toc-space",l),e.style.setProperty("--toc-gutter",`${Math.round(c)}px`);function h(){o==="dark"||o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?e.classList.add("dark"):e.classList.remove("dark")}h(),o==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",h)})()</script>
   </head><body class="bg-background text-foreground min-h-screen antialiased">
     <main
       id="page-container"
@@ -371,27 +370,7 @@
 
 
         
-        <div class="relative">
-    <button
-      id="language-toggle"
-      class="dropdown-toggle border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
-      data-dropdown-type="language"
-      aria-label="Switch language"
-      aria-expanded="false"
-      aria-haspopup="true"
-    ><svg class="h-5 w-5 relative z-10" aria-label="Switch language" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 8l6 6m-7 0l6-6l2-3M2 5h12M7 2h1m14 20l-5-10l-5 10m2-4h6" />
-</svg></button>
-
-    <div
-      id="language-dropdown"
-      class="dropdown-menu border-border bg-popover/95 w-40 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
-      data-dropdown-type="language"
-      
-        role="menu" aria-labelledby="language-toggle"
-      
-    ><a href="/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem" aria-current="true"><span class="font-medium">English</span></a><a href="/zh-hans/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">简体中文</span></a></div>
-  </div>
+        
 
 
         
@@ -480,27 +459,7 @@
       
       <div class="flex items-center space-x-2">
         
-        <div class="relative">
-    <button
-      id="language-toggle"
-      class="dropdown-toggle border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
-      data-dropdown-type="language"
-      aria-label="Switch language"
-      aria-expanded="false"
-      aria-haspopup="true"
-    ><svg class="h-5 w-5 relative z-10" aria-label="Switch language" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 8l6 6m-7 0l6-6l2-3M2 5h12M7 2h1m14 20l-5-10l-5 10m2-4h6" />
-</svg></button>
-
-    <div
-      id="language-dropdown"
-      class="dropdown-menu border-border bg-popover/95 w-40 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
-      data-dropdown-type="language"
-      
-        role="menu" aria-labelledby="language-toggle"
-      
-    ><a href="/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem" aria-current="true"><span class="font-medium">English</span></a><a href="/zh-hans/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">简体中文</span></a></div>
-  </div>
+        
 
 
         
@@ -805,7 +764,7 @@
           
             <img
               src="/images/avatar.svg"
-              alt="Hugo Narrow"
+              alt="willasaywhat"
               class="border-primary/20 h-24 w-24 rounded-full border-4 object-cover shadow-lg"
             />
           
@@ -814,19 +773,15 @@
         
         <div class="min-w-0 flex-1">
           <h1 class="text-foreground mb-2 text-3xl font-bold">
-            Hugo Narrow
+            willasaywhat
           </h1>
 
           
             <p class="text-muted-foreground mb-3 text-lg">
-              A Clean and Minimal Hugo Theme
+              a blog about technology, art, and philoshopy
             </p>
           
 
-          
-            <p class="text-foreground mb-4 leading-relaxed">
-              Focused on content and user experience.
-            </p>
           
 
 
@@ -835,7 +790,7 @@
             <div class="flex flex-wrap justify-center gap-3 md:justify-start">
               
                 <a
-                  href="https://github.com/tom2almighty/hugo-narrow"
+                  href="https://github.com/willasaywhat"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="bg-muted text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
@@ -848,32 +803,63 @@
                 </a>
               
                 <a
-                  href="https://twitter.com/username"
+                  href="https://infosec.exchange/@willasaywhat"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="bg-muted text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-                  title="Twitter"
+                  title="Mastodon"
                 >
                   
-                    <svg class="h-4 w-4" aria-label="Twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6c2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4c-.9-4.2 4-6.6 7-3.8c1.1 0 3-1.2 3-1.2"/></svg>
+                    <svg class="h-4 w-4" aria-label="Mastodon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<path fill="currentColor" d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127C.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611c.118 1.24.325 2.47.62 3.68c.55 2.237 2.777 4.098 4.96 4.857c2.336.792 4.849.923 7.256.38q.398-.092.786-.213c.585-.184 1.27-.39 1.774-.753a.06.06 0 0 0 .023-.043v-1.809a.05.05 0 0 0-.02-.041a.05.05 0 0 0-.046-.01a20.3 20.3 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.6 5.6 0 0 1-.319-1.433a.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546c.376 0 .75 0 1.125-.01c1.57-.044 3.224-.124 4.768-.422q.059-.011.11-.024c2.435-.464 4.753-1.92 4.989-5.604c.008-.145.03-1.52.03-1.67c.002-.512.167-3.63-.024-5.545m-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976c-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35c-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102q0-1.965 1.011-3.12c.696-.77 1.608-1.164 2.74-1.164c1.311 0 2.302.5 2.962 1.498l.638 1.06l.638-1.06c.66-.999 1.65-1.498 2.96-1.498c1.13 0 2.043.395 2.74 1.164q1.012 1.155 1.012 3.12z" />
+</svg>
                   
-                  <span class="text-sm font-medium">Twitter</span>
+                  <span class="text-sm font-medium">Mastodon</span>
                 </a>
               
                 <a
-                  href="mailto:hello@example.com"
+                  href="https://bsky.app/profile/willasaywhat.bsky.social"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="bg-muted text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
-                  title="Email"
+                  title="Bluesky"
                 >
                   
-                    <svg class="h-4 w-4" aria-label="Email" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    <svg class="h-4 w-4" aria-label="Bluesky" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10Q2-2 2 6t5 8q-5 3-1 6t6-3q2 6 6 3t-1-6q5 0 5-8t-10 4"/></svg>
+                  
+                  <span class="text-sm font-medium">Bluesky</span>
+                </a>
+              
+                <a
+                  href="https://www.threads.com/@willasaywhat"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="bg-muted text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+                  title="Threads"
+                >
+                  
+                    <svg class="h-4 w-4" aria-label="Threads" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+	<path fill="currentColor" d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802c.756-1.081 1.753-1.502 3.132-1.502c.975 0 1.803.327 2.394.948s.928 1.509 1.005 2.644q.492.207.905.484c1.109.745 1.719 1.86 1.719 3.137c0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994C1 2.034 4.482 0 8.044 0C9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79c0 4.143 2.254 6.343 5.63 6.343c2.777 0 4.847-1.443 4.847-3.556c0-1.438-1.208-2.127-1.27-2.127c-.236 1.234-.868 3.31-3.644 3.31c-1.618 0-3.013-1.118-3.013-2.582c0-2.09 1.984-2.847 3.55-2.847c.586 0 1.294.04 1.663.114c0-.637-.54-1.728-1.9-1.728c-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416c0 .878 1.043 1.168 1.6 1.168c1.02 0 2.067-.282 2.232-2.423a6.2 6.2 0 0 0-1.528-.161" />
 </svg>
 
                   
-                  <span class="text-sm font-medium">Email</span>
+                  <span class="text-sm font-medium">Threads</span>
+                </a>
+              
+                <a
+                  href="https://instagram.com/willasaywhat"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="bg-muted text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg px-3 py-2 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
+                  title="Instagram"
+                >
+                  
+                    <svg class="h-4 w-4" aria-label="Instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+	<path fill="currentColor" d="M8 0C5.829 0 5.556.01 4.703.048C3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7C.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297c.04.852.174 1.433.372 1.942c.205.526.478.972.923 1.417c.444.445.89.719 1.416.923c.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417c.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046c.78.035 1.204.166 1.486.275c.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485c.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598c-.28.11-.704.24-1.485.276c-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598a2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485c-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486c.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276c.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92a.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217a4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334a2.667 2.667 0 0 1 0-5.334" />
+</svg>
+
+                  
+                  <span class="text-sm font-medium">Instagram</span>
                 </a>
               
             </div>
@@ -888,30 +874,6 @@
     
     
     
-  <div
-    class="bg-primary/10 border-primary/30 mb-6 rounded-xl border p-6 shadow-sm transition-shadow duration-300 hover:shadow-md"
-  >
-    <div class="flex items-start gap-4">
-      
-      <div class="text-primary mt-0.5 shrink-0 text-2xl" aria-hidden="true">📢</div>
-
-      
-      <div class="flex-1 space-y-2">
-        <div class="text-foreground/80 leading-relaxed">
-          <p>🎉 <strong>Site Redesign!</strong> We&rsquo;ve completely revamped our website with faster loading speeds, a beautiful new interface, and smoother user experience. Welcome to explore the new features!</p>
-
-        </div>
-
-        
-        
-          <div class="text-muted-foreground/60 mt-3 text-xs">
-            December 31, 2025
-          </div>
-        
-      </div>
-    </div>
-  </div>
-
 
   
     
@@ -1542,7 +1504,7 @@
       <div class="flex items-center gap-3">
         
           <a
-            href="https://github.com/username"
+            href="https://github.com/willasaywhat"
             
               target="_blank" rel="noopener noreferrer"
             
@@ -1556,21 +1518,23 @@
           </a>
         
           <a
-            href="https://twitter.com/username"
+            href="https://infosec.exchange/@willasaywhat"
             
               target="_blank" rel="noopener noreferrer"
             
             class="text-muted-foreground hover:text-primary focus:ring-primary/20 rounded-lg p-1 transition-all duration-300 ease-out hover:scale-110 focus:ring-2 focus:outline-none"
-            title="Twitter"
-            aria-label="Twitter"
+            title="Mastodon"
+            aria-label="Mastodon"
           >
             
-              <svg class="h-6 w-6" aria-label="Twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6c2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4c-.9-4.2 4-6.6 7-3.8c1.1 0 3-1.2 3-1.2"/></svg>
+              <svg class="h-6 w-6" aria-label="Mastodon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<path fill="currentColor" d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127C.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611c.118 1.24.325 2.47.62 3.68c.55 2.237 2.777 4.098 4.96 4.857c2.336.792 4.849.923 7.256.38q.398-.092.786-.213c.585-.184 1.27-.39 1.774-.753a.06.06 0 0 0 .023-.043v-1.809a.05.05 0 0 0-.02-.041a.05.05 0 0 0-.046-.01a20.3 20.3 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.6 5.6 0 0 1-.319-1.433a.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546c.376 0 .75 0 1.125-.01c1.57-.044 3.224-.124 4.768-.422q.059-.011.11-.024c2.435-.464 4.753-1.92 4.989-5.604c.008-.145.03-1.52.03-1.67c.002-.512.167-3.63-.024-5.545m-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976c-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35c-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102q0-1.965 1.011-3.12c.696-.77 1.608-1.164 2.74-1.164c1.311 0 2.302.5 2.962 1.498l.638 1.06l.638-1.06c.66-.999 1.65-1.498 2.96-1.498c1.13 0 2.043.395 2.74 1.164q1.012 1.155 1.012 3.12z" />
+</svg>
             
           </a>
         
           <a
-            href="https://linkedin.com/in/username"
+            href="https://linkedin.com/in/willasaywhat"
             
               target="_blank" rel="noopener noreferrer"
             
@@ -1580,21 +1544,6 @@
           >
             
               <svg class="h-6 w-6" aria-label="LinkedIn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></g></svg>
-            
-          </a>
-        
-          <a
-            href="mailto:your.email@example.com"
-            
-            class="text-muted-foreground hover:text-primary focus:ring-primary/20 rounded-lg p-1 transition-all duration-300 ease-out hover:scale-110 focus:ring-2 focus:outline-none"
-            title="Email"
-            aria-label="Email"
-          >
-            
-              <svg class="h-6 w-6" aria-label="Email" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-</svg>
-
             
           </a>
         

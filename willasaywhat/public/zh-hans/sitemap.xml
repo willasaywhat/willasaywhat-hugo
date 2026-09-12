@@ -11,7 +11,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/"
                 />
   </url><url>
@@ -24,7 +24,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/categories/shortcode/"
                 />
   </url><url>
@@ -37,7 +37,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/tags/shortcode/"
                 />
   </url><url>
@@ -50,7 +50,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/tags/"
                 />
   </url><url>
@@ -63,7 +63,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/posts/%E7%9F%AD%E4%BB%A3%E7%A0%81/"
                 />
   </url><url>
@@ -76,7 +76,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/categories/"
                 />
   </url><url>
@@ -89,7 +89,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/posts/"
                 />
   </url><url>
@@ -102,7 +102,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/tags/go/"
                 />
   </url><url>
@@ -115,7 +115,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/tags/hugo/"
                 />
   </url><url>
@@ -128,7 +128,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/projects/hugo-framework/"
                 />
   </url><url>
@@ -141,7 +141,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/categories/projects/"
                 />
   </url><url>
@@ -154,7 +154,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/projects/"
                 />
   </url><url>
@@ -170,7 +170,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/posts/%E5%9B%BE%E5%BA%93/"
                 />
   </url><url>
@@ -186,7 +186,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/projects/hugo-narrow-theme/"
                 />
   </url><url>
@@ -199,7 +199,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/categories/markdown/"
                 />
   </url><url>
@@ -212,7 +212,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/tags/markdown/"
                 />
   </url><url>
@@ -225,7 +225,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/posts/markdown-%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97/"
                 />
   </url><url>
@@ -238,7 +238,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/tags/tailwind-css/"
                 />
   </url><url>
@@ -257,7 +257,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/about/"
                 />
   </url><url>
@@ -269,7 +269,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/archives/"
                 />
   </url><url>
@@ -281,7 +281,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/timeline/"
                 />
   </url><url>
@@ -293,7 +293,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-Hans"
+                hreflang="zh-hans"
                 href="http://localhost:1313/zh-hans/series/"
                 />
   </url>
