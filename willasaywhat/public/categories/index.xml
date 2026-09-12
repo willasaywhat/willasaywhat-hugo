@@ -21,13 +21,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Projects</title>
-				<link>http://localhost:1313/categories/projects/</link>
-				<pubDate>Tue, 20 Feb 2024 14:30:00 +0800</pubDate>
-				<guid>http://localhost:1313/categories/projects/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Gallery</title>
 				<link>http://localhost:1313/categories/gallery/</link>
 				<pubDate>Tue, 16 Jan 2024 22:30:00 +0800</pubDate>
