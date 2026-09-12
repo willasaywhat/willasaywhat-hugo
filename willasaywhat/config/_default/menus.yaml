@@ -7,43 +7,43 @@ main:
 
   - name: Archives
     pageRef: /archives
-    weight: 20
+    weight: 60
     params:
       icon: archive
 
   # Example: parent item with dropdown submenu children
-  - name: More
-    weight: 30
-    params:
-      icon: layers
+  #- name: More
+  #  weight: 30
+  #  params:
+  #    icon: layers
 
-  - name: Categories
-    weight: 1
-    pageRef: /categories
-    parent: More
-    params:
-      icon: categories
+  #- name: Categories
+  #  weight: 1
+  #  pageRef: /categories
+  #  parent: More
+  # params:
+  #    icon: categories
 
   - name: Tags
-    weight: 2
+    weight: 30
     pageRef: /tags
-    parent: More
+    #parent: More
     params:
       icon: tags
 
-  - name: Series
-    weight: 3
-    pageRef: /series
-    parent: More
-    params:
-      icon: bookmark
+  #- name: Series
+  #  weight: 40
+  #  pageRef: /series
+  #  parent: More
+  #  params:
+  #    icon: bookmark
 
-  - name: Projects
-    weight: 4
-    pageRef: /projects
-    parent: More
-    params:
-      icon: projects
+  #- name: Projects
+  #  weight: 4
+  #  pageRef: /projects
+  #  parent: More
+  #  params:
+  #    icon: projects
 
 
 
