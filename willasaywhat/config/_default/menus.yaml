@@ -29,7 +29,7 @@ main:
     pageRef: /tags
     #parent: More
     params:
-      icon: tags
+      icon: tags      
 
   #- name: Series
   #  weight: 40
@@ -45,16 +45,14 @@ main:
   #  params:
   #    icon: projects
 
-
+  - name: About
+    pageRef: /about
+    weight: 70
+    params:
+      icon: about
 
 # footer menu
 footer:
-
-  - name: About
-    pageRef: /about
-    weight: 20
-    params:
-      icon: about
 
   - name: RSS Feed
     url: /index.xml
