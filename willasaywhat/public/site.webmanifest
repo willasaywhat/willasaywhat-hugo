@@ -5,7 +5,7 @@
     "technology",
     "education"
   ],
-  "description": "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.",
+  "description": "A blog about tech, art, and philosophy.",
   "dir": "ltr",
   "display": "standalone",
   "icons": [
@@ -19,7 +19,7 @@
   "name": "willasaywhat",
   "orientation": "portrait-primary",
   "scope": "/",
-  "short_name": "Hugo Narrow",
+  "short_name": "willasaywhat",
   "start_url": "/",
   "theme_color": "#09090b"
 }
