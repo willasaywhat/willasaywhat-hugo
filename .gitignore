@@ -33,4 +33,4 @@ go.work.sum
 .DS_Store
 
 # Remove static publish folder
-/public/
+/public/*
