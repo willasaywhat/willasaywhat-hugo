@@ -75,3 +75,7 @@ module:
     min: 0.158.0
   imports:
     - path: github.com/tom2almighty/hugo-narrow
+
+caches:
+  images:
+    dir: :cacheDir/images
