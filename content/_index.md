@@ -3,8 +3,8 @@ dismissible: true
 date: 2025-12-31
 title: "Home"
 author:
-  name: "willasaywhat"
-  title: "a blog about technology, art, and philoshopy"
+  name: " "
+  title: "a blog about technology, art, and philosophy"
   description: ""
   avatar: "/images/avatar.svg"
   social:
